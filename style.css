@@ -1,0 +1,27 @@
+td,th,table,tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.main{
+    margin: 100px;
+}
+.main1{
+    margin-left: 35%;
+    margin-bottom: 150px;
+    text-align: center;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 5px;
+}
+button{
+    margin: 5px;
+    padding:10px;
+    border-radius: 2px;
+
+}
+button:hover{
+    background-color: lightblue;
+}
+button:active{
+    background-color:gold;
+}
