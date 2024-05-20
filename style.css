@@ -3,11 +3,10 @@ td,th,table,tr{
     border-collapse: collapse;
 }
 .main{
-    margin: 100px;
+    margin: 75px;
 }
 .main1{
     margin-left: 35%;
-    margin-bottom: 150px;
     text-align: center;
     border: 2px solid black;
     display: inline-block;
@@ -22,6 +21,7 @@ button{
 button:hover{
     background-color: lightblue;
 }
-button:active{
-    background-color:gold;
+button:focus{
+    background-color: rgb(61, 75, 224);
+    border: 3px solid black;
 }
